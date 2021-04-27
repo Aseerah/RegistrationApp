@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">L02-Registration App</string>
+    <string name="name">Name: </string>
+    <string name="password">Password: </string>
+    <string name="login">LOGIN </string>
+    <string name="cancel">CANCEL </string>
+    <string name="form">  Registration Form</string>
+    <string name="welcome">Welcome to Adventure Learning Club!</string>
+    <string name="fullName">Full Name: </string>
+    <string name="gender">Gender </string>
+
+
+
+</resources>
