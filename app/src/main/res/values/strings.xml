@@ -8,6 +8,17 @@
     <string name="welcome">Welcome to Adventure Learning Club!</string>
     <string name="fullName">Full Name: </string>
     <string name="gender">Gender </string>
+    <string name="male">Male </string>
+    <string name="female">Female </string>
+    <string name="student">Student id: </string>
+    <string name="school">School: </string>
+    <string name="email">Email: </string>
+    <string name="phone">Phone: </string>
+
+
+
+
+
 
 
 

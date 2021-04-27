@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffD6BF"
     android:orientation="vertical">
+
 
     <TextView
         android:id="@+id/textView"
@@ -77,13 +79,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Male" />
+            android:text="@string/male" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="19dp"
+        android:layout_marginLeft="15dp"
         android:orientation="horizontal">
 
         <RadioButton
@@ -96,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Female" />
+            android:text="@string/female" />
 
     </LinearLayout>
 
@@ -110,13 +112,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="Student Id: " />
+            android:text="@string/student" />
 
         <EditText
-            android:layout_width="310dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp" />
+            android:layout_marginLeft="20dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -128,14 +129,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="School: " />
+            android:text="@string/school" />
 
         <EditText
-            android:layout_width="341dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp" />
+            android:layout_marginLeft="40dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -147,13 +146,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="Email: " />
+            android:text="@string/email" />
 
         <EditText
-            android:layout_width="339dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp" />
+            android:layout_marginLeft="48dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -166,13 +164,12 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
 
-            android:text="Phone: " />
+            android:text="@string/phone" />
 
         <EditText
-            android:layout_width="334dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp" />
+            android:layout_marginLeft="43dp" />
 
     </LinearLayout>
 
@@ -180,7 +177,8 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="170dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="20dp"
         android:text="register" />
 
 
