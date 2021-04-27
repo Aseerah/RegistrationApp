@@ -40,7 +40,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="@string/fullName" />
+            android:text="@string/fullName"
+
+            android:textColor="@color/black" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -67,7 +69,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="@string/gender" />
+            android:text="@string/gender"
+            android:textColor="@color/black" />
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -79,7 +82,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/male" />
+            android:text="@string/male"
+            android:textColor="@color/black" />
     </LinearLayout>
 
     <LinearLayout
@@ -98,7 +102,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/female" />
+            android:text="@string/female"
+            android:textColor="@color/black" />
 
     </LinearLayout>
 
@@ -112,7 +117,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="@string/student" />
+            android:text="@string/student"
+            android:textColor="@color/black" />
 
         <EditText
             android:layout_width="300dp"
@@ -129,7 +135,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="@string/school" />
+            android:text="@string/school"
+            android:textColor="@color/black" />
 
         <EditText
             android:layout_width="300dp"
@@ -146,7 +153,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="@string/email" />
+            android:text="@string/email"
+            android:textColor="@color/black" />
 
         <EditText
             android:layout_width="300dp"
@@ -163,8 +171,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-
-            android:text="@string/phone" />
+            android:text="@string/phone"
+            android:textColor="@color/black" />
 
         <EditText
             android:layout_width="300dp"
